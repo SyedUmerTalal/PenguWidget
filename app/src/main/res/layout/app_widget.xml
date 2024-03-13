@@ -1,0 +1,67 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.PenguWidget.AppWidgetContainer"
+    android:background="@drawable/app_widget_background"
+    >
+
+    <ImageView
+        android:id="@+id/appwidget_background"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/light_blue_600" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="12dp"
+        android:id="@+id/owner_initial_text"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="@string/a" />
+
+    <TextView
+        android:id="@+id/friend_initial_text"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="-5dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_toEndOf="@+id/owner_initial_text"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="@string/u" />
+
+    <ImageView
+        android:id="@+id/appwidget_pengu_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pengu_layers"
+        />
+
+    <ImageView
+        android:id="@+id/love_saturation_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:paddingEnd="12dp"
+        android:paddingBottom="12dp"
+        android:src="@drawable/heart_saturation"
+        />
+
+    <ImageView
+        android:id="@+id/hunger_progress_image"
+        android:layout_width="50dp"
+        android:layout_height="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/hunger_progress" />
+
+</RelativeLayout>

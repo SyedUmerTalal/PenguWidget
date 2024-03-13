@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/heart_progress"
+        android:top="0dp"
+        android:width="24dp"
+        android:height="24dp" />
+    <item
+        android:drawable="@drawable/heart_progress"
+        android:top="24dp"
+        android:width="24dp"
+        android:height="24dp" />
+    <item
+        android:drawable="@drawable/heart_progress"
+        android:top="48dp"
+        android:width="24dp"
+        android:height="24dp" />
+    <item
+        android:drawable="@drawable/heart_progress"
+        android:top="72dp"
+        android:bottom="0dp"
+        android:width="24dp"
+        android:height="24dp" />
+</layer-list>

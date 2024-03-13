@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_widget_background">
+
+    <LinearLayout
+        android:id="@+id/names_layout"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:text="@string/o"
+            android:textFontWeight="600"
+            android:textSize="11sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_marginStart="-8dp"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:text="@string/f"
+            android:textSize="11sp"
+            android:textFontWeight="600"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_below="@id/names_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="bottom"
+        android:translationY="20dp"
+        android:src="@drawable/pengu_layers"
+        android:contentDescription="@string/pengu_layers" />
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hunger_preview"
+        android:contentDescription="@string/hunger_preview" />
+
+
+    <LinearLayout
+        android:id="@+id/hearts_layout"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/heart_empty"
+            android:contentDescription="@string/heart_level" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/heart_filled"
+            android:contentDescription="@string/heart_level" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/heart_filled"
+            android:contentDescription="@string/heart_level" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/heart_filled"
+            android:contentDescription="@string/heart_level" />
+
+    </LinearLayout>
+
+</RelativeLayout>

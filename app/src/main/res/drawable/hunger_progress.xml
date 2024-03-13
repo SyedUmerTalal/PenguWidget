@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <solid android:color="#D3D8E1"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+
+    <item>
+        <clip
+            android:gravity="start"
+            android:clipOrientation="horizontal">
+            <level-list>
+                <item android:maxLevel="3000">
+                    <shape>
+                        <solid android:color="#C32705"/>
+                        <corners android:radius="10dp"/>
+                    </shape>
+                </item>
+                <item android:maxLevel="6000">
+                    <shape>
+                        <solid android:color="#FFB800"/>
+                        <corners android:radius="10dp"/>
+                    </shape>
+                </item>
+                <item android:maxLevel="10000">
+                    <shape>
+                        <solid android:color="#B0F956"/>
+                        <corners android:radius="10dp"/>
+                    </shape>
+                </item>
+            </level-list>
+        </clip>
+    </item>
+
+</layer-list>

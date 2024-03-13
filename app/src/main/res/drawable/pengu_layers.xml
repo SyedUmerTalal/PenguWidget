@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/skin" />
+
+    <item android:drawable="@drawable/eyes" />
+
+    <item android:drawable="@drawable/shoes" />
+
+    <item android:drawable="@drawable/shirt" />
+
+    <item android:drawable="@drawable/towel" />
+
+    <item android:drawable="@drawable/glasses" />
+
+</layer-list>
